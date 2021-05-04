@@ -792,6 +792,9 @@ fieldset {
         width: 90%;
         left: 2em;
     }
+    header{
+        height: 100px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -819,5 +822,10 @@ fieldset {
     }
     nav li a {
         font-size: 10px;
+    }
+}}
+@media (max-width: 391px) {
+    header{
+        height: 130px;
     }
 }
